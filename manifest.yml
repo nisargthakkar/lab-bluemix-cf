@@ -3,11 +3,11 @@
 applications:
 - name: lab-bluemix-cf
   path: .
-  instances: 2
+  instances: 1
   memory: 64M
   #random-route: true
   routes:
-  - route: lab-bluemix-cf.mybluemix.net
+  - route: lab-python-nmt324.mybluemix.net
   disk_quota: 1024M
   buildpack: python_buildpack
   timeout: 180
